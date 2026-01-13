@@ -982,3 +982,6 @@ button {
 input[type="checkbox"]:checked {
     accent-color: var(--color-primary) !important;
 }
+
+
+/* Prueba comentario en rama DAVID */

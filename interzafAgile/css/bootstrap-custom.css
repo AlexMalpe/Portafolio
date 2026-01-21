@@ -1,0 +1,52 @@
+/* Estilos para la página de productos */
+.img-producto {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.card.h-100 {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card.h-100:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0.5rem 1.5rem rgba(67, 160, 71, 0.25), 0 0.125rem 0.25rem rgba(0,0,0,0.08);
+  z-index: 2;
+}
+
+/* Fondo verde claro para navbar y footer */
+.bg-lightgreen {
+  background-color: #43a047 !important; /* Verde claro accesible */
+  color: #fff !important;
+}
+
+/* Fondo verde oscuro para botones */
+.bg-darkgreen {
+  background-color: #14532d !important;
+  color: #fff !important;
+}
+
+/* Botón verde oscuro accesible */
+.btn-darkgreen {
+  background-color: #14532d !important; /* Verde oscuro accesible */
+  color: #fff !important;
+  border-color: #14532d !important;
+}
+
+
+.btn-darkgreen:hover, .btn-darkgreen:focus {
+  background-color: #43a047 !important; /* Verde clarito */
+  color: #fff !important;
+  border-color: #43a047 !important;
+}
+
+.btn-outline-darkgreen {
+  color: #14532d !important;
+  border-color: #14532d !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-darkgreen:hover, .btn-outline-darkgreen:focus {
+  background-color: #43a047 !important; /* Verde clarito */
+  color: #fff !important;
+  border-color: #43a047 !important;
+}
